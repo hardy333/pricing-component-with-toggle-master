@@ -1,0 +1,25 @@
+.animate-from-left{
+    animation: slideFromLeft 0.3s ease-out;
+    transform: translate(-100%, 0);
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideFromLeft {
+    to{
+        transform: translate(0%, 0%);
+    }
+    
+}
+
+.animate-from-right{
+    animation: slideFromRight 0.3s ease-out;
+    transform: translate(100%, 0);
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideFromRight {
+    to{
+        transform: translate(0%, 0%);
+    }
+    
+}

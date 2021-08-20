@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animations.css">
+
+</head>
+<body>
+
+  <!-- Header start -->
+  <header class="header">
+    <h2>Our Pricing</h2>
+
+    <div class="price-switcher">
+      <span class="price-switcher__label active">Annually</span>
+      <button class="price-switcher__btn">
+        <span class="price-switcher__btn__thumb on"></span>
+      </button>
+      <span class="price-switcher__label">Monthly</span>
+    </div>
+  </header>
+  <!-- Header end -->
+
+
+
+  <!-- Cards Section start -->
+  <section class="cards-section">
+    <div class="container">
+      <!-- 1 -->
+      <article class="card animate-from-left">
+        <h3 class="card__type">Basic</h3>
+        <h2 class="card__price ">
+          <div class="card__price-inner  card__price--month">
+            <span class="dollar-sign">&dollar;</span>19.99
+          </div>
+          <div class="card__price-inner  card__price--year">
+            <span class="dollar-sign">&dollar;</span>199.99
+          </div>
+        </h2>
+
+        <ul class="card__features">
+          <li class="card__feature">500 GB Storage</li>
+          <li class="card__feature">2 Users Allowed</li>
+          <li class="card__feature">Send up to 3 GB</li>
+        </ul>
+        <button class="btn card__btn">Learn More</button>
+      </article>
+      <!-- 2 -->
+      <article class="card card--primary">
+        <h3 class="card__type">Professional</h3>
+
+        <h2 class="card__price ">
+          <div class="card__price-inner  card__price--month">
+            <span class="dollar-sign">&dollar;</span>24.99
+          </div>
+          <div class="card__price-inner  card__price--year">
+            <span class="dollar-sign">&dollar;</span>249.99
+          </div>
+        </h2>
+
+        <ul class="card__features">
+          <li class="card__feature">1 Tb Storage</li>
+          <li class="card__feature">5 users Allowed</li>
+          <li class="card__feature">Send up to 10 GB</li>
+        </ul>
+        <button class="btn card__btn">Learn More</button>
+      </article>
+      <!-- 3 -->
+      <article class="card animate-from-right">
+        <h3 class="card__type">Master</h3>
+        <h2 class="card__price ">
+          <div class="card__price-inner  card__price--month">
+            <span class="dollar-sign">&dollar;</span>39.99
+          </div>
+          <div class="card__price-inner  card__price--year">
+            <span class="dollar-sign">&dollar;</span>399.99
+          </div>
+        </h2>
+
+        <ul class="card__features">
+          <li class="card__feature">2 TB Storage</li>
+          <li class="card__feature">10 Users Allowed</li>
+          <li class="card__feature">Send up to 20 GB</li>
+        </ul>
+        <button class="btn card__btn">Learn More</button>
+      </article>
+    </div>
+  </section>
+  <!-- Cards Section end -->
+
+
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+
+  <script src="main.js"></script>
+</body>
+</html>
